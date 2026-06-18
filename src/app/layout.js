@@ -72,10 +72,7 @@ export default function RootLayout({ children }) {
                   <span className="nav-icon"></span>
                   <span className="nav-text">Earth Impact</span>
                 </a>
-                <a href="/history" className="nav-link">
-                  <span className="nav-icon"></span>
-                  <span className="nav-text">Historical</span>
-                </a>
+               
               </div>
 
               <div className="nav-section">

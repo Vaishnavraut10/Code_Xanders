@@ -562,7 +562,8 @@ export default function CMEDetection() {
             backdropFilter: 'blur(10px)',
             transition: 'all 0.3s ease',
             position: 'relative',
-            overflow: 'hidden'
+            overflow: 'hidden',
+            width: '1100px'
           }}>
             <div className="card-header" style={{
               display: 'flex',
@@ -612,7 +613,8 @@ export default function CMEDetection() {
                 <div className="metric-label" style={{
                   fontSize: '14px',
                   color: '#666',
-                  marginTop: '8px'
+                  marginTop: '8px',
+                  
                 }}>
                   Confidence Level
                 </div>
